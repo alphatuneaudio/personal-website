@@ -9,9 +9,8 @@ import Typography from '@material-ui/core/Typography';
 import TextLoop from "react-text-loop";
 import Grid, { GridSpacing } from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
+import MediaControlCard from '../components/media'
+
 
 const Home = () => {
   const [date, setDate] = useState(null);
@@ -46,7 +45,7 @@ const Home = () => {
           I'm a &nbsp;
           <TextLoop>
             {[
-              "Vocalist Guitarist Cellist & Composer",
+              "Vocalist",
               "Music Producer",
               "Song Writer"
             ].map((line,key) => (
@@ -78,56 +77,10 @@ const Home = () => {
           Creations
         </Typography>
 
-        <Card style={{marginBottom: 24}}>
-          <iframe width="100%" height="960" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
-        </Card>
-
-       
-        <Typography variant="h3" gutterBottom style={{marginTop: 24, marginBottom: 24}}>
-          
-        </Typography>
-
         <Grid container  spacing={2}>
-          <Grid item xs={12} md={4} sm={6}>
+          <Grid item xs={12} md={6} sm={6}>
             <Paper>
-              <Typography variant="h6" style={{padding: 16}}>
-                Production Services
-              </Typography>
-           
-              <List>
-                <ListItem>
-                    <ListItemText primary="Music Production"/>
-                </ListItem>
-                <ListItem>
-                    <ListItemText primary="Mixing"/>
-                </ListItem>
-                <ListItem>
-                    <ListItemText primary="Song Writing"/>
-                </ListItem>
-                <ListItem>
-                    <ListItemText primary="Mastering"/>
-                </ListItem>
-                <ListItem>
-                    <ListItemText primary="Grammy Consultation"/>
-                </ListItem>
-                <ListItem>
-                    <ListItemText primary="Jingles"/>
-                </ListItem>
-                <ListItem>
-                    <ListItemText primary="Scoring"/>
-                </ListItem>
-                <ListItem>
-                    <a href="http://ifixyourmix.com/" target="blank">
-                      <ListItemText primary="ifixyourmix.com"/>
-                    </a>
-                </ListItem>
-              </List>
-            </Paper>
-          </Grid>
-
-          <Grid item xs={12} md={8} sm={6}>
-            <Paper>
-              <TwitterTimelineEmbed
+            <TwitterTimelineEmbed
                 sourceType="profile"
                 screenName="alexplaysmusic"
                 options={{height: 860}}
@@ -135,6 +88,43 @@ const Home = () => {
             </Paper>
           </Grid>
 
+          <Grid item xs={12} md={6} sm={6}>
+            <Paper>
+              <iframe width="100%" height="858" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+            </Paper>
+          </Grid>
+
+        </Grid>
+
+        <Grid container  spacing={2} style={{ marginTop: "24px"}}>
+          <Grid item xs={12} md={3} sm={3}>
+            <MediaControlCard
+              heading={"Music Production"}
+              subheading={"XYX"}
+              image={"images/music-production.jpg"}
+            ></MediaControlCard>
+          </Grid>
+          <Grid item xs={12} md={3} sm={3}>
+            <MediaControlCard
+              heading={"Mixing"}
+              subheading={"XYX"}
+              image={"images/mixing.jpg"}
+            ></MediaControlCard>
+          </Grid>
+          <Grid item xs={12} md={3} sm={3}>
+            <MediaControlCard
+              heading={"Song Writing"}
+              subheading={"XYX"}
+              image={"images/song-writing.jpg"}
+            ></MediaControlCard>
+          </Grid>
+          <Grid item xs={12} md={3} sm={3}>
+            <MediaControlCard
+              heading={"Mastering"}
+              subheading={"XYX"}
+              image={"images/mastering.jpg"}
+            ></MediaControlCard>
+          </Grid>
         </Grid>
 
       </Page>
