@@ -57,7 +57,7 @@ const Home = () => {
         </Typography>
         
         <Typography variant="body2" gutterBottom style={{color: 'gray',maxWidth: 640}}>
-          Alex has toured the world with his music. Insired by his love for different styles of music,  Alex has created a unique global sound.
+          Alex has toured the world with his music. Inspired by his love for different styles of music,  Alex has created a unique global sound.
           He has worked with Warner Brothers, Universal Music Group, EMI and Cirque du Soleil. His collaborations have been nominated for Grammys.
           In Hang Zhou China, Alex worked with the creation team on the music & playback for Cirque du Soleil's Chinese Resident Show <br/>
           "Cirque X the Land of Fantasy." Come back to hear fresh music creations.   
