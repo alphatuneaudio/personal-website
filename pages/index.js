@@ -57,10 +57,10 @@ const Home = () => {
         </Typography>
         
         <Typography variant="body2" gutterBottom style={{color: 'gray',maxWidth: 640}}>
-          Alex has toured the world with his music. Inspired by his love for different styles of music,  Alex has created a unique global sound.
+         Inspired by his love for different styles of music,  Alex has created a unique global sound.
           He has worked with Warner Brothers, Universal Music Group, EMI and Cirque du Soleil. His collaborations have been nominated for Grammys.
           In Hang Zhou China, Alex worked with the creation team on the music & playback for Cirque du Soleil's Chinese Resident Show
-          "Cirque X the Land of Fantasy." Come back to hear fresh music creations.   
+          "Cirque X the Land of Fantasy." Come back to hear fresh music.
         </Typography>
 
         <a href="https://geo.music.apple.com/us/album/7-steps-to-heaven/1210493562?mt=1&app=music"   style={{
