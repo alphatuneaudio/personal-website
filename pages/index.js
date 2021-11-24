@@ -83,29 +83,27 @@ const Home = () => {
               <img
                 alt="image"
                 style={{width: "100%"}}
-                src="/playground_assets/bangaloreheadshot-1200h.jpeg"
+                src="/playground_assets/img_1883%2021-900h.jpg"
                 className="image04"
               />
             </div>
         <section className="container07">
 
-          <div className="container08">
+          <div className="container08 mobile-padding">
             <h1 className="text03 headingOne">The Journey</h1>
             <span className="text04">
               <span className="text05">
-                Music Plays such a vital role in life.  Alex has been listening
-                to his passion for music since he first starting playing piano.
-                 This fascination became what defines him.  Vibration is the
-                core essence of all that plays.
+              As a Producer, Artist and Songwriter,  Alex Plays has travelled the world with many global artists from all walks of life. Music is at the center of what can positively change the world.  Alex Plays Music that sets you free.  He plays music for you.
+
               </span>
             </span>
           </div>
           <div className="container09">
-            <div className="container10">
+            <div className="container10 hide-mobile ">
               <img
                 alt="image"
                 style={{width: "100%"}}
-                src="/playground_assets/img_1883%2021-900h.jpg"
+                src="/playground_assets/bangaloreheadshot-1200h.jpeg"
                 className="image04"
               />
             </div>
@@ -115,7 +113,7 @@ const Home = () => {
                 src="/playground_assets/img_2548-700h.jpg"
                 className="image05"
               />
-              <div className="container12">
+              <div className="container12" style={{marginLeft: 32}}>
                 <h3 className="headingTwo">
                   <span className="text08">Who is Alex Plays?</span>
                 </h3>
@@ -230,20 +228,20 @@ const Home = () => {
         </section>
         <section className="contaier">
 
-            <div style={{width: "100%"}}>
+        <div style={{width: "100%"}} name="media" id="media" >
+            <iframe width="100%" height="858" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+
+            </div>
+       
+          <div className="divider"></div>
+          <div style={{width: "100%"}}>
             <TwitterTimelineEmbed
               sourceType="profile"
               screenName="alexplaysmusic"
               options={{height: 860, width: "100%"}}
             />
             </div>
-       
-          <div className="divider"></div>
-
-          <div style={{width: "100%"}} name="media" id="media" >
-            <iframe width="100%" height="858" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
-
-            </div>
+          
 
           <iframe className="iframe"></iframe>
         </section>
@@ -608,6 +606,7 @@ const Home = () => {
             align-items: flex-start;
             padding-left: var(--dl-space-space-triplequarterunit);
             flex-direction: column;
+            margin-top: -70px;
           }
           .container17 {
             width: 100%;
@@ -1052,6 +1051,12 @@ const Home = () => {
             }
             .text20 {
               text-align: center;
+            }
+            .mobile-padding {
+              margin-top: 224px;
+            }
+            .hide-mobile {
+              display: none;
             }
           }
         `}

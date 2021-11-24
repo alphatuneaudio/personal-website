@@ -15,18 +15,12 @@ const Header = () => {
                 <a className="link1 large">About</a>
               </Link>
               <span className="text large">
-              <a href="#music">Music</a>
+                <a href="#music">Music</a>
               </span>
               <span className="text1 large">
               <a href="#media">Media</a></span>
             </div>
-            <div className="container1">
-              <div className="container2"></div>
-              <svg viewBox="0 0 1024 1024" className="icon">
-                <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
-              </svg>
-            </div>
-          </div>
+               </div>
         </nav>
       </div>
       <style jsx>
@@ -76,6 +70,7 @@ const Header = () => {
             justify-content: space-between;
           }
           .link {
+            visibility: hidden;
             color: var(--dl-color-secondary-600);
             font-weight: 600;
             margin-left: var(--dl-space-space-unit);
@@ -148,7 +143,9 @@ const Header = () => {
               max-width: 960px;
             }
             .menu {
-              display: none;
+            }
+            .link {
+              visibility: hidden;
             }
             .icon {
               display: flex;

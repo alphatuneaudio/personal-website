@@ -11,6 +11,7 @@ class CustomDocument extends Document {
           ></meta>
           <meta charSet="utf-8"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
+          <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
           <style
             dangerouslySetInnerHTML={{
               __html:
