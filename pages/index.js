@@ -20,7 +20,7 @@ const Home = () => {
         <Header></Header>
         <div className="hero">
           <div className="container01">
-            <div className="card" style={{
+            <div className="card mobile-first-div" style={{
                   height: "auto;"}}>
               <h1 className="text headingOne">Alex Plays</h1>
               <h1 className="text01 headingOne">Music For You</h1>
@@ -83,7 +83,7 @@ const Home = () => {
               <img
                 alt="image"
                 style={{width: "100%"}}
-                src="/playground_assets/img_1883%2021-900h.jpg"
+                src="/playground_assets/bangaloreheadshot-1200h-mobile.jpg  "
                 className="image04"
               />
             </div>
@@ -92,9 +92,8 @@ const Home = () => {
           <div className="container08 mobile-padding">
             <h1 className="text03 headingOne">The Journey</h1>
             <span className="text04">
-              <span className="text05">
-              As a Producer, Artist and Songwriter,  Alex Plays has travelled the world with many global artists from all walks of life. Music is at the center of what can positively change the world.  Alex Plays Music that sets you free.  He plays music for you.
-
+              <span className="text05" style={{textAlign: "justify !important", display: "flex"}}>
+                As a Producer, Artist and Songwriter,  Alex Plays has travelled the world with many global artists from all walks of life. Music is at the center of what can positively change the world.  Alex Plays Music that sets you free.  He plays music for you.
               </span>
             </span>
           </div>
@@ -107,7 +106,7 @@ const Home = () => {
                 className="image04"
               />
             </div>
-            <div id="bio" className="container11">
+            <div id="bio" className="container11  ">
               <img
                 alt="image"
                 src="/playground_assets/img_2548-700h.jpg"
@@ -929,6 +928,8 @@ const Home = () => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
               justify-content: center;
+              display: flex;
+              flex-direction: column;
             }
             .container14 {
               align-items: center;
@@ -936,8 +937,11 @@ const Home = () => {
             .container15 {
               margin-right: 0px;
             }
+            .container16 {
+              min-width: 300px;
+            }     
             .logos {
-              display: none;
+              display: block;
             }
             .contaier {
               padding-left: var(--dl-space-space-doubleunit);

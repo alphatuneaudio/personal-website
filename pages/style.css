@@ -170,6 +170,10 @@
   .for-mobile {
     display: block !important;
     height: 546px !important;
+  }
 
+  .mobile-first-div {
+    margin-top: 118px !important;
+    margin-bottom: 42px !important;
   }
 }
