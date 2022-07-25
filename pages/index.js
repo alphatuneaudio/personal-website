@@ -109,7 +109,7 @@ const Home = () => {
             <div id="bio" className="container11  ">
               <img
                 alt="image"
-                src="/playground_assets/PPhotoShoot1.JPG"
+                src="/playground_assets/PhotoShoot1.JPG"
                 className="image05"
               />
               <div className="container12" style={{marginLeft: 32}}>
