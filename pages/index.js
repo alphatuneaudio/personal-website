@@ -102,14 +102,14 @@ const Home = () => {
               <img
                 alt="image"
                 style={{width: "100%"}}
-                src="/playground_assets/Photo_Shoot _2.jpeg"
+                src="/playground_assets/Photo_Shoot_2.jpg"
                 className="image04"
               />
             </div>
             <div id="bio" className="container11  ">
               <img
                 alt="image"
-                src="/playground_assets/Photo_Shoot _1.jpg"
+                src="/playground_assets/Photo_Shoot_1.jpg"
                 className="image05"
               />
               <div className="container12" style={{marginLeft: 32}}>
