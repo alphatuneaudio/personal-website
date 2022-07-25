@@ -114,7 +114,7 @@ const Home = () => {
               />
               <div className="container12" style={{marginLeft: 32}}>
                 <h3 className="headingTwo">
-                  <span className="text08">Who is Alex Plays?</span>
+                  <span className="text08">  Who is Alex Plays?</span>
                 </h3>
                 <p className="text09">
                   <br></br>
@@ -129,8 +129,6 @@ const Home = () => {
                   <br></br>
                   <br></br>
                 </p>
-              </div>
-            </div>
           </div>
         </section>
         <section className="testimonials">
