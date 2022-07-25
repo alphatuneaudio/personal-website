@@ -124,10 +124,8 @@ const Home = () => {
                     Brothers, Universal Music Group, EMI and Cirque du Soleil.
                     His collaborations have been nominated for Grammys.
                   </span>
-                  <br></br>
-                  <span></span>
-                  <br></br>
-                  <br></br>
+                 
+                  
                 </p>
           </div>
         </section>
