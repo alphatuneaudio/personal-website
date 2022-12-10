@@ -127,7 +127,7 @@ const Home = () => {
                             <br/>
                           
 
-                            <div className="container12" style={{ marginLeft: 1 }}>
+                            <div className="container12" style={{ marginLeft: -888}}>
                                 <h3 className="headingTwo">
                                     <span className="text08">  Who is Alex Plays?</span>
                                 </h3>
@@ -236,16 +236,16 @@ const Home = () => {
   <br/>
 
                                 <div style={{ width:"90%" }} name="media" id="media" >
-                                    <iframe width="333" height="444" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                    <iframe width="444" height="444" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
                                 <div className="divider"></div>
-                                <div style={{ width: "222%" }}>
+                                <div style={{ width: "444%" }}>
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
-                                        options={{ height: 860, width: "298" }}
+                                        options={{ height: 860, width: "444" }}
                                     />
                                 </div>
 
