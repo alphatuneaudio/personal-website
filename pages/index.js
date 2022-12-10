@@ -147,7 +147,7 @@ const Home = () => {
                                 <img
                                     alt="image"
                                     src="/playground_assets/bottom.svg"
-                                    className="bottom-wave-image"
+                                    className="bottom-wave-image"tyle={{ marginLeft: -33}}>
                                 />
                                 <img
                                     alt="image"
