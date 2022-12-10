@@ -235,17 +235,17 @@ const Home = () => {
 
   <br/>
 
-                                <div style={{ width:"90%" }} name="media" id="media" >
-                                    <iframe width="187" height="444" scrolling="yes" frameBorder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                <div style={{ width:"100%" }} name="media" id="media" >
+                                    <iframe width="333" height="444" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
                                 <div className="divider"></div>
-                                <div style={{ width: "111" }}>
+                                <div style={{ width: "100%" }}>
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
-                                        options={{ height: 860, width: "111" }}
+                                        options={{ height: 860, width: "666" }}
                                     />
                                 </div>
 
