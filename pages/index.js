@@ -121,13 +121,13 @@ const Home = () => {
                                 alt="image"
                                 src="/playground_assets/PhotoShoot1.JPG"
                                 className="image05"
-                            />
+            />
 
                             <br/>
                             <br/>
                           
 
-                            <div className="container12" style={{ marginLeft: -1}}>
+                            <div className="container12" style={{ marginLeft: -33}}>
                                 <h3 className="headingTwo">
                                     <span className="text08">  Who is Alex Plays?</span>
                                 </h3>
