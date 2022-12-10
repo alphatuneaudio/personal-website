@@ -67,6 +67,8 @@ const Home = () => {
                                         margin: "1px 0"
                                     }}
                                 />
+                                <br/>
+                                
                                 <img
                                     alt="image"
                                     src="/playground_assets/pngfind.com-grammy-png-1944768-1200w.png"
