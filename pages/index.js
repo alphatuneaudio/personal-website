@@ -234,8 +234,8 @@ const Home = () => {
                             <section className="contaier">
 <br/>
 
-                                <div style={{ width: "100%" }} name="media" id="media" >
-                                    <iframe width="555" height="333" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                <div style={{ width: "333" }} name="media" id="media" >
+                                    <iframe width="666" height="333" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
