@@ -68,7 +68,7 @@ const Home = () => {
                                     }}
                                 />
                                 <br/>
-                                
+
                                 <img
                                     alt="image"
                                     src="/playground_assets/pngfind.com-grammy-png-1944768-1200w.png"
@@ -242,7 +242,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="divider"></div>
-                                <div style={{ width: "120%" }}>
+                                <div style={{ width: "140%" }}>
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
