@@ -127,7 +127,7 @@ const Home = () => {
                             <br/>
                           
 
-                            <div className="container12" style={{ marginLeft: -33}}>
+                            <div className="container12" style={{ marginLeft: -222}}>
                                 <h3 className="headingTwo">
                                     <span className="text08">  Who is Alex Plays?</span>
                                 </h3>
