@@ -10,240 +10,247 @@ import Footer from '../components/footer'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 const Home = () => {
-  return (
-    <>
-      <div className="container">
-        <Head>
-          <title>Alex Plays</title>
-          <meta property="og:title" content="Alex Plays" />
-        </Head>
-        <Header></Header>
-        <div className="hero">
-          <div className="container01">
-            <div className="card mobile-first-div" style={{
-                  height: "auto;"}}>
-              <h1 className="text headingOne">Alex Plays</h1>
-              <h1 className="text01 headingOne">Music For You</h1>
-              <span className="text02 lead"></span>
-              <div className="container02">
-                <div className="container03">
-                  <PrimaryPinkButton button="contact us"></PrimaryPinkButton>
-                </div>
-                <a href="#bio" className="link">
-                  <OutlineGrayButton
-                    button="read more"
-                    className="component02"
-                  ></OutlineGrayButton>
-                </a>
-              </div>
+    return (
+        <>
+            <div className="container">
+                <Head>
+                    <title>Alex Plays</title>
+                    <meta property="og:title" content="Alex Plays" />
+                </Head>
+                <Header></Header>
+                <div className="hero">
+                    <div className="container01">
+                        <div className="card mobile-first-div" style={{
+                            height: "auto;"
+                        }}>
+                            <h1 className="text headingOne">Alex Plays</h1>
+                            <h1 className="text01 headingOne">Music For You</h1>
+                            <span className="text02 lead"></span>
+                            <div className="container02">
+                                <div className="container03">
+                                    <PrimaryPinkButton button="contact us"></PrimaryPinkButton>
+                                </div>
+                                <a href="#bio" className="link">
+                                    <OutlineGrayButton
+                                        button="read more"
+                                        className="component02"
+                                    ></OutlineGrayButton>
+                                </a>
+                            </div>
 
-              <div className="container04 flex-wrap-mobile" 
-                style={{display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  width: "100%;"}}>
-                <img
-                  alt="image"
-                  style={{
-                    height: 86,
-                  width: "auto"}}
-                  src="/playground_assets/Alexplayslogo.png"
-                  loading="eager"
-                  className="image"
-                />
-                <img
-                  alt="image"
-                  src="/playground_assets/pngwing.com-1200w.png"
-                  loading="eager"
-                  className="image"
-                  style={{
-                    height: 106,
-                      margin: "24px 0"}}
-                />
-                <img
-                  alt="image"
-                  src="/playground_assets/pngfind.com-grammy-png-1944768-1200w.png"
-                  loading="eager"
-                  className="image"
-                  style={{
-                    height: 64,
-                  width: "auto"}}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          alt="image"
-          src="/playground_assets/bangaloreheadshot-1200h.jpeg"
-          className="image03"
-        />
-
-<div className="container10 for-mobile">
-              <img
-                alt="image"
-                style={{width: "100%"}}
-                src="/playground_assets/bangaloreheadshot-1200h-mobile.jpg  "
-                className="image04"
-              />
-            </div>
-        <section className="container07">
-
-          <div className="container08 mobile-padding">
-            <h1 className="text03 headingOne">The Journey</h1>
-            <span className="text04">
-              <span className="text05" style={{textAlign: "justify !important", display: "flex"}}>
-                As a Producer, Artist and Songwriter,  Alex Plays has travelled the world with many global artists from all walks of life. Music is at the center of what can positively change the world.  Alex Plays Music that sets you free.  He plays music for you.
-              </span>
-            </span>
-          </div>
-          <div className="container09">
-            <div className="container10 hide-mobile ">
-              <img
-                alt="image"
-                style={{width: "100%"}}
-                src="/playground_assets/PhotoShoot2.JPG"
-                className="image04"
-              />
-            </div>
-            <div id="bio" className="container11  ">
-              <img
-                alt="image"
-                src="/playground_assets/PhotoShoot1.JPG"
-                className="image05"
-              />
-              <div className="container12" style={{marginLeft: 32}}>
-                <h3 className="headingTwo">
-                  <span className="text08">  Who is Alex Plays?</span>
-                </h3>
-                <p className="text09">
-                  <br></br>
-                  <span className="text10">
-                    Inspired by his love for different styles of music, Alex has
-                    created a unique global sound. He has worked with Warner
-                    Brothers, Universal Music Group, EMI and Cirque du Soleil.
-                    His collaborations have been nominated for Grammys.
-                  </span>
-                 
-                  
-                </p>
-          </div>
-        </section>
-        <section className="testimonials">
-          <img
-            alt="image"
-            src="/playground_assets/bottom.svg"
-            className="bottom-wave-image"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/waves-white.svg"
-            className="image06"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/top.svg"
-            className="top-wave-image"
-          />
-          <div name="music" id="music" className="container13">
-            <div className="container14">
-              <div className="container15">
-                <h2 className="text13 headingOne">Find Your Music</h2>
-                <p className="text14 lead">
-                  <span className="text15">You will find him everywhere</span>
-                </p>
-              </div>
-            </div>
-            <div className="logos">
-              <div className="container16">
-                <div className="container17"></div>
-                <div className="container18">
-                <a
-                    href="https://open.spotify.com/artist/3bbvoH6UFHGGbKyhleKNCG?si=awpvCgNxR8mS6MFE_lftdw"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link1"
-                  >
-                  <div className="container19">
-                 
-                    <img
-                      alt="image"
-                      src="/playground_assets/287645_spotify_icon-1200w.png"
-                      className="image07"
-                    />
-                    
-                  </div>
-                  </a>
-                  <a
-                    href="https://music.apple.com/us/artist/alex-plays/290098984"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link1"
-                  >
-                    <div className="container20">
-                      <img
-                        alt="image"
-                        src="/playground_assets/logo-apple.svg"
-                        className="image08"
-                      />
+                            <div className="container04 flex-wrap-mobile"
+                                style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    width: "100%;"
+                                }}>
+                                <img
+                                    alt="image"
+                                    style={{
+                                        height: 86,
+                                        width: "auto"
+                                    }}
+                                    src="/playground_assets/Alexplayslogo.png"
+                                    loading="eager"
+                                    className="image"
+                                />
+                                <img
+                                    alt="image"
+                                    src="/playground_assets/pngwing.com-1200w.png"
+                                    loading="eager"
+                                    className="image"
+                                    style={{
+                                        height: 106,
+                                        margin: "24px 0"
+                                    }}
+                                />
+                                <img
+                                    alt="image"
+                                    src="/playground_assets/pngfind.com-grammy-png-1944768-1200w.png"
+                                    loading="eager"
+                                    className="image"
+                                    style={{
+                                        height: 64,
+                                        width: "auto"
+                                    }}
+                                />
+                            </div>
+                        </div>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.instagram.com/alexplaysmusic/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link1"
-                  >
-                  <div className="container21">
-                    <img
-                      alt="image"
-                      src="/playground_assets/pngegg-2-1200w.png"
-                      className="image09"
-                    />
-                  </div>
-                  </a>
-                  <a
-                    href="https://soundcloud.com/alexplays"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="link1"
-                  >
-                  <div className="container22">
-                    <img
-                      alt="image"
-                      src="/playground_assets/kisspng-computer-icons-logo-soundcloud-bigmidin-5ae83fff1cb702.6655363815251701751176-1200w.png"
-                      className="image10"
-                    />
-                  </div>
-                  </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="contaier">
+                <img
+                    alt="image"
+                    src="/playground_assets/bangaloreheadshot-1200h.jpeg"
+                    className="image03"
+                />
 
-        <div style={{width: "100%"}} name="media" id="media" >
-            <iframe width="100%" height="333" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                <div className="container10 for-mobile">
+                    <img
+                        alt="image"
+                        style={{ width: "100%" }}
+                        src="/playground_assets/bangaloreheadshot-1200h-mobile.jpg  "
+                        className="image04"
+                    />
+                </div>
+                <section className="container07">
 
-            </div>
-       
-          <div className="divider"></div>
-          <div style={{width: "100%"}}>
-            <TwitterTimelineEmbed
-              sourceType="profile"
-              screenName="alexplaysmusic"
-              options={{height: 860, width: "100%"}}
-            />
-            </div>
-          
+                    <div className="container08 mobile-padding">
+                        <h1 className="text03 headingOne">The Journey</h1>
+                        <span className="text04">
+                            <span className="text05" style={{ textAlign: "justify !important", display: "flex" }}>
+                                As a Producer, Artist and Songwriter,  Alex Plays has travelled the world with many global artists from all walks of life. Music is at the center of what can positively change the world.  Alex Plays Music that sets you free.  He plays music for you.
+                            </span>
+                        </span>
+                    </div>
+                    <div className="container09">
+                        <div className="container10 hide-mobile ">
+                            <img
+                                alt="image"
+                                style={{ width: "100%" }}
+                                src="/playground_assets/PhotoShoot2.JPG"
+                                className="image04"
+                            />
+                        </div>
+                        <div id="bio" className="container11  ">
+                            <img
+                                alt="image"
+                                src="/playground_assets/PhotoShoot1.JPG"
+                                className="image05"
+                            />
+                            <div className="container12" style={{ marginLeft: 32 }}>
+                                <h3 className="headingTwo">
+                                    <span className="text08">  Who is Alex Plays?</span>
+                                </h3>
+                                <p className="text09">
+                                    <br></br>
+                                    <span className="text10">
+                                        Inspired by his love for different styles of music, Alex has
+                                        created a unique global sound. He has worked with Warner
+                                        Brothers, Universal Music Group, EMI and Cirque du Soleil.
+                                        His collaborations have been nominated for Grammys.
+                                    </span>
 
-          <iframe className="iframe"></iframe>
-        </section>
-        {/* <Footer></Footer> */}
-      </div>
-      <style jsx>
-        {`
+
+                                </p>
+                            </div>
+                            <section className="testimonials">
+                                <img
+                                    alt="image"
+                                    src="/playground_assets/bottom.svg"
+                                    className="bottom-wave-image"
+                                />
+                                <img
+                                    alt="image"
+                                    src="/playground_assets/waves-white.svg"
+                                    className="image06"
+                                />
+                                <img
+                                    alt="image"
+                                    src="/playground_assets/top.svg"
+                                    className="top-wave-image"
+                                />
+                                <div name="music" id="music" className="container13">
+                                    <div className="container14">
+                                        <div className="container15">
+                                            <h2 className="text13 headingOne">Find Your Music</h2>
+                                            <p className="text14 lead">
+                                                <span className="text15">You will find him everywhere</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="logos">
+                                        <div className="container16">
+                                            <div className="container17"></div>
+                                            <div className="container18">
+                                                <a
+                                                    href="https://open.spotify.com/artist/3bbvoH6UFHGGbKyhleKNCG?si=awpvCgNxR8mS6MFE_lftdw"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    className="link1"
+                                                >
+                                                    <div className="container19">
+
+                                                        <img
+                                                            alt="image"
+                                                            src="/playground_assets/287645_spotify_icon-1200w.png"
+                                                            className="image07"
+                                                        />
+
+                                                    </div>
+                                                </a>
+                                                <a
+                                                    href="https://music.apple.com/us/artist/alex-plays/290098984"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    className="link1"
+                                                >
+                                                    <div className="container20">
+                                                        <img
+                                                            alt="image"
+                                                            src="/playground_assets/logo-apple.svg"
+                                                            className="image08"
+                                                        />
+                                                    </div>
+                                                </a>
+                                                <a
+                                                    href="https://www.instagram.com/alexplaysmusic/"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    className="link1"
+                                                >
+                                                    <div className="container21">
+                                                        <img
+                                                            alt="image"
+                                                            src="/playground_assets/pngegg-2-1200w.png"
+                                                            className="image09"
+                                                        />
+                                                    </div>
+                                                </a>
+                                                <a
+                                                    href="https://soundcloud.com/alexplays"
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    className="link1"
+                                                >
+                                                    <div className="container22">
+                                                        <img
+                                                            alt="image"
+                                                            src="/playground_assets/kisspng-computer-icons-logo-soundcloud-bigmidin-5ae83fff1cb702.6655363815251701751176-1200w.png"
+                                                            className="image10"
+                                                        />
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section className="contaier">
+
+                                <div style={{ width: "100%" }} name="media" id="media" >
+                                    <iframe width="100%" height="333" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+
+                                </div>
+
+                                <div className="divider"></div>
+                                <div style={{ width: "100%" }}>
+                                    <TwitterTimelineEmbed
+                                        sourceType="profile"
+                                        screenName="alexplaysmusic"
+                                        options={{ height: 860, width: "100%" }}
+                                    />
+                                </div>
+
+
+                                <iframe className="iframe"></iframe>
+                            </section>
+                            {/* <Footer></Footer> */}
+                        </div>
+                    </div>
+                </section>
+                <style jsx>
+                    {`
           .container {
             width: 100%;
             height: auto;
@@ -1060,9 +1067,10 @@ const Home = () => {
             }
           }
         `}
-      </style>
-    </>
-  )
+                </style>
+            </div>
+        </>
+    )
 }
 
 export default Home
