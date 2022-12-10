@@ -47,7 +47,7 @@ const Home = () => {
                   style={{
                     height: 86,
                   width: "auto"}}
-                  src="/playground_assets/universal-music-group-logo-1200w.png"
+                  src="/playground_assets/Alexplayslogo.png"
                   loading="eager"
                   className="image"
                 />
