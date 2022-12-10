@@ -22,15 +22,7 @@ const Home = () => {
           <div className="container01">
             <div className="card mobile-first-div" style={{
                   height: "auto;"}}>
-              <h1 className="text headingOne">Alex Plays</h1>
-             <img
-                  alt="image"
-                  style={{
-                    height: 86,
-                  width: "auto"}}
-                  src="/playground_assets/AlexPlaysLogo.png"
-                  loading="eager"
-                  className="image"
+              <h1 className="text headingOne">Alex Plays</h1>         
               <h1 className="text01 headingOne">Music For You</h1>
               <span className="text02 lead"></span>
               <div className="container02">
@@ -55,7 +47,7 @@ const Home = () => {
                   style={{
                     height: 86,
                   width: "auto"}}
-                  src="/playground_assets/universal-music-group-logo-1200w.png"
+                  src="/playground_assets/AlexPlaysLogo.png"
                   loading="eager"
                   className="image"
                 />
