@@ -241,7 +241,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="divider"></div>
-                                <div style={{ width: "120" }}>
+                                <div style={{ width: "111" }}>
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
