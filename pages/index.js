@@ -27,6 +27,7 @@ const Home = () => {
                             <h1 className="text01 headingOne">Music For You</h1>
                             <span className="text02 lead"></span>
                             <div className="container02">
+                            <div style={{textAlign: 'center', display: 'flex', justifyContent:'center'}}>
                                 <div className="container03">
                                     <PrimaryPinkButton button="contact us"></PrimaryPinkButton>
                                 </div>
@@ -36,6 +37,7 @@ const Home = () => {
                                         className="component02"
                                     ></OutlineGrayButton>
                                 </a>
+                                </div>
                             </div>
 
                             <div className="container04 flex-wrap-mobile"
@@ -48,7 +50,7 @@ const Home = () => {
                                 <img
                                     alt="image"
                                     style={{
-                                        height: 86,
+                                        height: 200,
                                         width: "auto"
                                     }}
                                     src="/playground_assets/Alexplayslogo.png"
