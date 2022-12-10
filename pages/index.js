@@ -124,7 +124,7 @@ const Home = () => {
                                 <h3 className="headingTwo">
                                     <span className="text08">  Who is Alex Plays?</span>
                                 </h3>
-                                <p className="text09">
+                                <p className="text08">
                                     <br></br>
                                     <span className="text10">
                                         Inspired by his love for different styles of music, Alex has
@@ -157,7 +157,7 @@ const Home = () => {
                                         <div className="container15">
                                             <h2 className="text13 headingOne">Find Your Music</h2>
                                             <p className="text14 lead">
-                                                <span className="text15">You will find him everywhere</span>
+                                                <span className="text15"></span>
                                             </p>
                                         </div>
                                     </div>
@@ -216,11 +216,7 @@ const Home = () => {
                                                     className="link1"
                                                 >
                                                     <div className="container22">
-                                                        <img
-                                                            alt="image"
-                                                            src="/playground_assets/kisspng-computer-icons-logo-soundcloud-bigmidin-5ae83fff1cb702.6655363815251701751176-1200w.png"
-                                                            className="image10"
-                                                        />
+                                                        
                                                     </div>
                                                 </a>
                                             </div>
