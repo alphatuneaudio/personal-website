@@ -53,7 +53,7 @@ const Home = () => {
                 />
                 <img
                   alt="image"
-                  src="/playground_assets/pngwing.com-1200w.png"
+                  src="/playground_assets/AlexPlaysLogo.png"
                   loading="eager"
                   className="image"
                   style={{
