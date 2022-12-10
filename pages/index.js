@@ -127,7 +127,7 @@ const Home = () => {
                             <br/>
                           
 
-                            <div className="container12" style={{ marginLeft: -888}}>
+                            <div className="container12" style={{ marginLeft: -1}}>
                                 <h3 className="headingTwo">
                                     <span className="text08">  Who is Alex Plays?</span>
                                 </h3>
@@ -235,8 +235,8 @@ const Home = () => {
 
   <br/>
 
-                                <div style={{ width:"90%" }} name="media" id="media" >
-                                    <iframe width="444" height="444" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                <div style={{ width:"90%" }} name="media" id="media" style={{ marginLeft: -888}}>
+                                    <iframe width="777" height="444" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
@@ -245,7 +245,7 @@ const Home = () => {
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
-                                        options={{ height: 860, width: "444" }}
+                                        options={{ height: 860, width: "777" }}
                                     />
                                 </div>
 
