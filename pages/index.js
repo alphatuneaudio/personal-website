@@ -64,7 +64,7 @@ const Home = () => {
                                     className="image"
                                     style={{
                                         height: 106,
-                                        margin: "24px 0"
+                                        margin: "1px 0"
                                     }}
                                 />
                                 <img
@@ -120,7 +120,12 @@ const Home = () => {
                                 src="/playground_assets/PhotoShoot1.JPG"
                                 className="image05"
                             />
-                            <div className="container12" style={{ marginLeft: 32 }}>
+
+                            <br/>
+                            <br/>
+                            <br/>
+
+                            <div className="container12" style={{ marginLeft: 1 }}>
                                 <h3 className="headingTwo">
                                     <span className="text08">  Who is Alex Plays?</span>
                                 </h3>
@@ -132,6 +137,8 @@ const Home = () => {
                                         Brothers, Universal Music Group, EMI and Cirque du Soleil.
                                         His collaborations have been nominated for Grammys.
                                     </span>
+
+<br/>
 
 
                                 </p>
@@ -225,9 +232,10 @@ const Home = () => {
                                 </div>
                             </section>
                             <section className="contaier">
+<br/>
 
                                 <div style={{ width: "100%" }} name="media" id="media" >
-                                    <iframe width="100%" height="333" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                    <iframe width="555" height="333" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
