@@ -236,9 +236,9 @@ const Home = () => {
   <br/>
 
                                 <div style={{ width:"111%" }} name="media" id="media">
-                                   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6qr6z7E1oXyRRgYf5v9Zz3?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                    <iframe width="444" height="444" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
-                                </div>
+                                </div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6qr6z7E1oXyRRgYf5v9Zz3?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
                                 <div className="divider"></div>
                                 <div style={{ width: "455%" }}>
