@@ -73,7 +73,7 @@ const Home = () => {
                                     loading="eager"
                                     className="image"
                                     style={{
-                                        height: 64,
+                                        height: 62,
                                         width: "auto"
                                     }}
                                 />
