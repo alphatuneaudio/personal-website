@@ -246,7 +246,7 @@ const Home = () => {
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
-                                        options={{ height: 860, width: "444" }}
+                                        options={{ height: 860, width: "666" }}
                                     />
                                 </div>
 
