@@ -125,7 +125,7 @@ const Home = () => {
 
                             <br/>
                             <br/>
-                            <br/>
+                          
 
                             <div className="container12" style={{ marginLeft: 1 }}>
                                 <h3 className="headingTwo">
@@ -139,8 +139,6 @@ const Home = () => {
                                         Brothers, Universal Music Group, EMI and Cirque du Soleil.
                                         His collaborations have been nominated for Grammys.
                                     </span>
-
-<br/>
 
 
                                 </p>
@@ -235,9 +233,10 @@ const Home = () => {
                             </section>
                             <section className="contaier">
 
+  <br/>
 
                                 <div style={{ width:"133%" }} name="media" id="media" >
-                                    <iframe width="333" height="444" scrolling="yes" frameBorder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                    <iframe width="222" height="444" scrolling="yes" frameBorder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
@@ -246,7 +245,7 @@ const Home = () => {
                                     <TwitterTimelineEmbed
                                         sourceType="profile"
                                         screenName="alexplaysmusic"
-                                        options={{ height: 860, width: "555" }}
+                                        options={{ height: 860, width: "333" }}
                                     />
                                 </div>
 
