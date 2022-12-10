@@ -45,7 +45,7 @@ const Home = () => {
                                     display: "flex",
                                     justifyContent: "center",
                                     alignItems: "center",
-                                    width: "100%;"
+                                    width: "111%;"
                                 }}>
                                 <img
                                     alt="image"
