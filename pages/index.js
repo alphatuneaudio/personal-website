@@ -53,7 +53,7 @@ const Home = () => {
                                         height: 200,
                                         width: "auto"
                                     }}
-                                    src="/playground_assets/Alexplayslogo.png"
+                                    src="/playground_assets/AlexplaysLogo.png"
                                     loading="eager"
                                     className="image"
                                 />
