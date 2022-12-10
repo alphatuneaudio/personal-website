@@ -47,7 +47,7 @@ const Home = () => {
                   style={{
                     height: 86,
                   width: "auto"}}
-                  src="/playground_assets/pngwing.com-1200wpng"
+                  src="/playground_assets/pngwing.com-1200w.png"
                   loading="eager"
                   className="image"
                 />
