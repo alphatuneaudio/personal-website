@@ -14,7 +14,6 @@ const Home = () => {
     <>
       <div className="container">
         <Head>
-        
           <title>Alex Plays</title>
           <meta property="og:title" content="Alex Plays" />
         </Head>
