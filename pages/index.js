@@ -235,8 +235,8 @@ const Home = () => {
 
   <br/>
 
-                                <div style={{ width:"110%" }} name="media" id="media">
-                                    <iframe width="222" height="444" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
+                                <div style={{ width:"111%" }} name="media" id="media">
+                                    <iframe width="444" height="444" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
 
