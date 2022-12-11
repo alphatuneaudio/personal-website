@@ -234,12 +234,14 @@ const Home = () => {
                             <section className="contaier">
 
   <br/>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1CyDZY2f5Y7c7GwcUro0qS?utm_source=generator" width="333" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  
 
                                 <div style={{ width:"66%" }} name="media" id="media">
                                     <iframe width="111" height="444" scrolling="no" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=false&show_reposts=false&visual=false"></iframe>
 
                                 </div>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1CyDZY2f5Y7c7GwcUro0qS?utm_source=generator" width="333" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
                                 <div className="divider"></div>
                                 <div style={{ width: "455%" }}>
                                     <TwitterTimelineEmbed
