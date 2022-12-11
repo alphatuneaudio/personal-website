@@ -223,7 +223,7 @@ const Home = () => {
                                                     className="link1"
                                                 >
                                                     <div className="container22">
-                                                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1CyDZY2f5Y7c7GwcUro0qS?utm_source=generator" width="333" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
+                                                        
                                                     </div>
                                                 </a>
                                             </div>
