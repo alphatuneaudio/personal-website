@@ -244,16 +244,6 @@ const Home = () => {
                                         options={{ height: 860, width: "333" }}
                                     />
                                 </div>
-
-               
-          .hero {
-            width: 100%;
-            display: flex;
-            max-width: 1320px;
-            padding-left: var(--dl-space-space-unitandahalfunit);
-            padding-right: var(--dl-space-space-unitandahalfunit);
-            justify-content: center;
-          }
           .container01 {
             width: 100%;
             display: flex;
