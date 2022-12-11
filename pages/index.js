@@ -242,7 +242,10 @@ const Home = () => {
 
                                 <div className="divider"></div>
                                 <div style={{ width: "455%" }}>
-                                    <a class="twitter-timeline" href="https://twitter.com/alexplaysmusic?ref_src=twsrc%5Etfw">Tweets by alexplaysmusic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    <TwitterTimelineEmbed
+                                        sourceType="profile"
+                                        screenName="alexplaysmusic"
+                                        options={{ height: 860, width: "333" }}
                                     />
                                 </div>
 
