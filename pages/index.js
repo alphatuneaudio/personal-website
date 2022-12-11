@@ -245,18 +245,7 @@ const Home = () => {
                                     />
                                 </div>
 
-                 </div>
-                </section>
-                <style jsx>
-                    {`
-          .container {
-            width: 100%;
-            height: auto;
-            display: flex;
-            min-height: 100vh;
-            align-items: center;
-            flex-direction: column;
-          }
+               
           .hero {
             width: 100%;
             display: flex;
