@@ -245,12 +245,7 @@ const Home = () => {
                                     />
                                 </div>
 
-
-                                <iframe className="iframe"></iframe>
-                            </section>
-                            {/* <Footer></Footer> */}
-                        </div>
-                    </div>
+                 </div>
                 </section>
                 <style jsx>
                     {`
