@@ -1,12 +1,12 @@
-import React from 'react'
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 
-import HeaderFull from '../components/header-full'
-import OutlineBlueButton from '../components/outline-blue-button'
-import NextButton from '../components/next-button'
-import BlogCard from '../components/blog-card'
-import PrimaryBlueButton from '../components/primary-blue-button'
-import Footer from '../components/footer'
+import HeaderFull from "../components/header-full";
+import OutlineBlueButton from "../components/outline-blue-button";
+import NextButton from "../components/next-button";
+import BlogCard from "../components/blog-card";
+import PrimaryBlueButton from "../components/primary-blue-button";
+import Footer from "../components/footer";
 
 const Profile = () => {
   return (
@@ -134,7 +134,7 @@ const Profile = () => {
                     Contact
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: ' ',
+                        __html: " ",
                       }}
                     />
                   </span>
@@ -321,7 +321,7 @@ const Profile = () => {
             border-radius: var(--dl-radius-radius-radius1);
             flex-direction: column;
             background-size: cover;
-            background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/seaside.jpg');
+            background-image: url("https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/seaside.jpg");
           }
           .container06 {
             display: flex;
@@ -510,7 +510,7 @@ const Profile = () => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/curved5-200h.jpg');
+            background-image: url("/playground_assets/curved5-200h.jpg");
             border-top-right-radius: var(--dl-radius-radius-radius1);
             border-bottom-right-radius: var(--dl-radius-radius-radius1);
           }
@@ -698,7 +698,7 @@ const Profile = () => {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
